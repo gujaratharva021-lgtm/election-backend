@@ -1,1 +1,1 @@
-web: bash -c "chmod +x ./election_backend && ./election_backend"
+web: bin/application
