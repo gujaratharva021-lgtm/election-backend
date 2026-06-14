@@ -1,0 +1,1070 @@
+Jun  7 15:57:02 ip-172-31-19-6 crond[1604]: (CRON) STARTUP (1.5.7)
+Jun  7 15:57:02 ip-172-31-19-6 crond[1604]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Jun  7 15:57:02 ip-172-31-19-6 crond[1604]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 82% if used.)
+Jun  7 15:57:02 ip-172-31-19-6 crond[1604]: (CRON) INFO (running with inotify support)
+Jun  7 16:01:01 ip-172-31-3-24 CROND[5416]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) starting 0anacron
+Jun  7 16:01:02 ip-172-31-3-24 anacron[5427]: Anacron started on 2026-06-07
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) finished 0anacron
+Jun  7 16:01:02 ip-172-31-3-24 anacron[5427]: Will run job `cron.daily' in 22 min.
+Jun  7 16:01:02 ip-172-31-3-24 anacron[5427]: Will run job `cron.weekly' in 42 min.
+Jun  7 16:01:02 ip-172-31-3-24 anacron[5427]: Will run job `cron.monthly' in 62 min.
+Jun  7 16:01:02 ip-172-31-3-24 anacron[5427]: Jobs will be executed sequentially
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 16:01:02 ip-172-31-3-24 run-parts[5416]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 16:01:02 ip-172-31-3-24 CROND[5415]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  7 16:10:01 ip-172-31-3-24 CROND[5818]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 16:10:01 ip-172-31-3-24 CROND[5817]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 16:23:02 ip-172-31-3-24 anacron[5427]: Job `cron.daily' started
+Jun  7 16:23:02 ip-172-31-3-24 anacron[5427]: Job `cron.daily' terminated
+Jun  7 16:30:01 ip-172-31-3-24 CROND[6517]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 16:30:01 ip-172-31-3-24 CROND[6516]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 16:43:02 ip-172-31-3-24 anacron[5427]: Job `cron.weekly' started
+Jun  7 16:43:02 ip-172-31-3-24 anacron[5427]: Job `cron.weekly' terminated
+Jun  7 16:50:01 ip-172-31-3-24 CROND[7168]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 16:50:01 ip-172-31-3-24 CROND[7167]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 17:01:01 ip-172-31-3-24 CROND[7502]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) starting 0anacron
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) finished 0anacron
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 17:01:01 ip-172-31-3-24 run-parts[7502]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 17:01:01 ip-172-31-3-24 CROND[7501]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  7 17:03:02 ip-172-31-3-24 anacron[5427]: Job `cron.monthly' started
+Jun  7 17:03:02 ip-172-31-3-24 anacron[5427]: Job `cron.monthly' terminated
+Jun  7 17:03:02 ip-172-31-3-24 anacron[5427]: Normal exit (3 jobs run)
+Jun  7 17:10:01 ip-172-31-3-24 CROND[7880]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 17:10:02 ip-172-31-3-24 CROND[7879]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 17:30:01 ip-172-31-3-24 CROND[8528]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 17:30:01 ip-172-31-3-24 CROND[8527]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 17:50:01 ip-172-31-3-24 CROND[9176]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 17:50:01 ip-172-31-3-24 CROND[9175]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 18:01:01 ip-172-31-3-24 CROND[9509]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) starting 0anacron
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) finished 0anacron
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 18:01:01 ip-172-31-3-24 run-parts[9509]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 18:01:01 ip-172-31-3-24 CROND[9508]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  7 18:10:01 ip-172-31-3-24 CROND[9889]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 18:10:01 ip-172-31-3-24 CROND[9888]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 18:30:01 ip-172-31-3-24 CROND[10535]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 18:30:01 ip-172-31-3-24 CROND[10534]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 18:50:01 ip-172-31-3-24 CROND[11185]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 18:50:01 ip-172-31-3-24 CROND[11184]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 19:01:01 ip-172-31-3-24 CROND[11517]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) starting 0anacron
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) finished 0anacron
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 19:01:01 ip-172-31-3-24 run-parts[11517]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 19:01:01 ip-172-31-3-24 CROND[11516]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  7 19:10:01 ip-172-31-3-24 CROND[11895]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 19:10:01 ip-172-31-3-24 CROND[11894]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 19:30:01 ip-172-31-3-24 CROND[12543]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 19:30:01 ip-172-31-3-24 CROND[12542]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 19:50:01 ip-172-31-3-24 CROND[13190]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 19:50:01 ip-172-31-3-24 CROND[13189]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 20:01:01 ip-172-31-3-24 CROND[13523]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) starting 0anacron
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) finished 0anacron
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 20:01:01 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 20:01:02 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 20:01:02 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 20:01:02 ip-172-31-3-24 run-parts[13523]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 20:01:02 ip-172-31-3-24 CROND[13522]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  7 20:10:01 ip-172-31-3-24 CROND[13902]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 20:10:01 ip-172-31-3-24 CROND[13901]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 20:30:01 ip-172-31-3-24 CROND[14546]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 20:30:01 ip-172-31-3-24 CROND[14545]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 20:50:01 ip-172-31-3-24 CROND[15196]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 20:50:01 ip-172-31-3-24 CROND[15195]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 21:01:01 ip-172-31-3-24 CROND[15526]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) starting 0anacron
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) finished 0anacron
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 21:01:01 ip-172-31-3-24 run-parts[15526]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 21:01:01 ip-172-31-3-24 CROND[15525]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  7 21:10:01 ip-172-31-3-24 CROND[15904]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 21:10:01 ip-172-31-3-24 CROND[15903]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 21:30:01 ip-172-31-3-24 CROND[16553]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 21:30:01 ip-172-31-3-24 CROND[16552]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 21:50:01 ip-172-31-3-24 CROND[17199]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 21:50:01 ip-172-31-3-24 CROND[17198]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 22:01:01 ip-172-31-3-24 CROND[17533]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) starting 0anacron
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) finished 0anacron
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 22:01:01 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 22:01:02 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 22:01:02 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 22:01:02 ip-172-31-3-24 run-parts[17533]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 22:01:02 ip-172-31-3-24 CROND[17532]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  7 22:10:01 ip-172-31-3-24 CROND[17911]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 22:10:01 ip-172-31-3-24 CROND[17910]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 22:30:01 ip-172-31-3-24 CROND[18561]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 22:30:01 ip-172-31-3-24 CROND[18560]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 22:50:01 ip-172-31-3-24 CROND[19211]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 22:50:01 ip-172-31-3-24 CROND[19210]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 23:01:01 ip-172-31-3-24 CROND[19544]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) starting 0anacron
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) finished 0anacron
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 23:01:01 ip-172-31-3-24 run-parts[19544]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  7 23:01:01 ip-172-31-3-24 CROND[19543]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  7 23:10:01 ip-172-31-3-24 CROND[19922]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 23:10:01 ip-172-31-3-24 CROND[19921]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 23:30:01 ip-172-31-3-24 CROND[20569]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 23:30:01 ip-172-31-3-24 CROND[20568]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 23:50:01 ip-172-31-3-24 CROND[21217]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  7 23:50:01 ip-172-31-3-24 CROND[21216]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 00:01:01 ip-172-31-3-24 CROND[21553]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) starting 0anacron
+Jun  8 00:01:01 ip-172-31-3-24 anacron[21564]: Anacron started on 2026-06-08
+Jun  8 00:01:01 ip-172-31-3-24 anacron[21564]: Normal exit (0 jobs run)
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) finished 0anacron
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 00:01:01 ip-172-31-3-24 run-parts[21553]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 00:01:01 ip-172-31-3-24 CROND[21552]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 00:10:01 ip-172-31-3-24 CROND[21950]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 00:10:01 ip-172-31-3-24 CROND[21949]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 00:30:01 ip-172-31-3-24 CROND[22594]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 00:30:01 ip-172-31-3-24 CROND[22593]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 00:50:01 ip-172-31-3-24 CROND[23243]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 00:50:01 ip-172-31-3-24 CROND[23242]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 01:01:01 ip-172-31-3-24 CROND[23575]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 01:01:01 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) starting 0anacron
+Jun  8 01:01:01 ip-172-31-3-24 anacron[23586]: Anacron started on 2026-06-08
+Jun  8 01:01:01 ip-172-31-3-24 anacron[23586]: Normal exit (0 jobs run)
+Jun  8 01:01:01 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) finished 0anacron
+Jun  8 01:01:01 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 01:01:02 ip-172-31-3-24 run-parts[23575]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 01:01:02 ip-172-31-3-24 CROND[23574]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 01:10:01 ip-172-31-3-24 CROND[23954]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 01:10:01 ip-172-31-3-24 CROND[23953]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 01:30:01 ip-172-31-3-24 CROND[24649]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 01:30:01 ip-172-31-3-24 CROND[24648]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 01:50:01 ip-172-31-3-24 CROND[25297]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 01:50:01 ip-172-31-3-24 CROND[25296]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 02:01:01 ip-172-31-3-24 CROND[25632]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) starting 0anacron
+Jun  8 02:01:01 ip-172-31-3-24 anacron[25643]: Anacron started on 2026-06-08
+Jun  8 02:01:01 ip-172-31-3-24 anacron[25643]: Normal exit (0 jobs run)
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) finished 0anacron
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 02:01:01 ip-172-31-3-24 run-parts[25632]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 02:01:01 ip-172-31-3-24 CROND[25631]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 02:10:01 ip-172-31-3-24 CROND[26016]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 02:10:01 ip-172-31-3-24 CROND[26015]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 02:30:01 ip-172-31-3-24 CROND[26662]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 02:30:01 ip-172-31-3-24 CROND[26661]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 02:50:01 ip-172-31-3-24 CROND[27311]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 02:50:02 ip-172-31-3-24 CROND[27310]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 03:01:01 ip-172-31-3-24 CROND[27643]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) starting 0anacron
+Jun  8 03:01:01 ip-172-31-3-24 anacron[27654]: Anacron started on 2026-06-08
+Jun  8 03:01:01 ip-172-31-3-24 anacron[27654]: Will run job `cron.daily' in 44 min.
+Jun  8 03:01:01 ip-172-31-3-24 anacron[27654]: Jobs will be executed sequentially
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) finished 0anacron
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 03:01:01 ip-172-31-3-24 run-parts[27643]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 03:01:01 ip-172-31-3-24 CROND[27642]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 03:10:01 ip-172-31-3-24 CROND[28024]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 03:10:01 ip-172-31-3-24 CROND[28023]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 03:30:01 ip-172-31-3-24 CROND[28671]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 03:30:01 ip-172-31-3-24 CROND[28670]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 03:45:01 ip-172-31-3-24 anacron[27654]: Job `cron.daily' started
+Jun  8 03:45:01 ip-172-31-3-24 anacron[27654]: Job `cron.daily' terminated
+Jun  8 03:45:01 ip-172-31-3-24 anacron[27654]: Normal exit (1 job run)
+Jun  8 03:50:01 ip-172-31-3-24 CROND[29320]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 03:50:01 ip-172-31-3-24 CROND[29319]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 04:01:01 ip-172-31-3-24 CROND[29654]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) starting 0anacron
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) finished 0anacron
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 04:01:01 ip-172-31-3-24 run-parts[29654]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 04:01:01 ip-172-31-3-24 CROND[29653]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 04:10:01 ip-172-31-3-24 CROND[30033]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 04:10:01 ip-172-31-3-24 CROND[30032]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 04:30:01 ip-172-31-3-24 CROND[30679]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 04:30:01 ip-172-31-3-24 CROND[30678]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 04:50:01 ip-172-31-3-24 CROND[31327]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 04:50:01 ip-172-31-3-24 CROND[31326]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 05:01:01 ip-172-31-3-24 CROND[31659]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 05:01:01 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) starting 0anacron
+Jun  8 05:01:01 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) finished 0anacron
+Jun  8 05:01:01 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 05:01:01 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 05:01:01 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 05:01:02 ip-172-31-3-24 run-parts[31659]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 05:01:02 ip-172-31-3-24 CROND[31658]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 05:10:01 ip-172-31-3-24 CROND[32039]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 05:10:01 ip-172-31-3-24 CROND[32038]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 05:30:01 ip-172-31-3-24 CROND[32684]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 05:30:01 ip-172-31-3-24 CROND[32683]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 05:50:01 ip-172-31-3-24 CROND[33330]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 05:50:01 ip-172-31-3-24 CROND[33329]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 06:01:01 ip-172-31-3-24 CROND[33665]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) starting 0anacron
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) finished 0anacron
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 06:01:01 ip-172-31-3-24 run-parts[33665]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 06:01:01 ip-172-31-3-24 CROND[33664]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 06:10:01 ip-172-31-3-24 CROND[34042]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 06:10:01 ip-172-31-3-24 CROND[34041]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 06:30:01 ip-172-31-3-24 CROND[34686]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 06:30:01 ip-172-31-3-24 CROND[34685]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 06:50:01 ip-172-31-3-24 CROND[35335]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 06:50:01 ip-172-31-3-24 CROND[35334]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 07:01:01 ip-172-31-3-24 CROND[35668]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 07:01:01 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) starting 0anacron
+Jun  8 07:01:01 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) finished 0anacron
+Jun  8 07:01:01 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 07:01:01 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 07:01:01 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 07:01:01 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 07:01:01 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 07:01:02 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 07:01:02 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 07:01:02 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 07:01:02 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 07:01:02 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 07:01:02 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 07:01:02 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 07:01:02 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 07:01:02 ip-172-31-3-24 run-parts[35668]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 07:01:02 ip-172-31-3-24 CROND[35667]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 07:10:01 ip-172-31-3-24 CROND[36046]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 07:10:01 ip-172-31-3-24 CROND[36045]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 07:30:01 ip-172-31-3-24 CROND[36691]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 07:30:01 ip-172-31-3-24 CROND[36690]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 07:50:01 ip-172-31-3-24 CROND[37337]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 07:50:01 ip-172-31-3-24 CROND[37336]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 08:01:01 ip-172-31-3-24 CROND[37672]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) starting 0anacron
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) finished 0anacron
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 08:01:01 ip-172-31-3-24 run-parts[37672]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 08:01:01 ip-172-31-3-24 CROND[37671]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 08:10:01 ip-172-31-3-24 CROND[38051]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 08:10:01 ip-172-31-3-24 CROND[38050]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 08:30:01 ip-172-31-3-24 CROND[38697]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 08:30:01 ip-172-31-3-24 CROND[38696]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 08:50:01 ip-172-31-3-24 CROND[39346]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 08:50:01 ip-172-31-3-24 CROND[39345]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 09:01:01 ip-172-31-3-24 CROND[39680]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 09:01:01 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) starting 0anacron
+Jun  8 09:01:01 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) finished 0anacron
+Jun  8 09:01:01 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 09:01:02 ip-172-31-3-24 run-parts[39680]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 09:01:02 ip-172-31-3-24 CROND[39679]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 09:10:01 ip-172-31-3-24 CROND[40058]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 09:10:01 ip-172-31-3-24 CROND[40057]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 09:30:01 ip-172-31-3-24 CROND[40705]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 09:30:01 ip-172-31-3-24 CROND[40704]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 09:50:01 ip-172-31-3-24 CROND[41354]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 09:50:01 ip-172-31-3-24 CROND[41353]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 10:01:01 ip-172-31-3-24 CROND[41685]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) starting 0anacron
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) finished 0anacron
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 10:01:01 ip-172-31-3-24 run-parts[41685]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 10:01:01 ip-172-31-3-24 CROND[41684]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 10:10:01 ip-172-31-3-24 CROND[42066]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 10:10:01 ip-172-31-3-24 CROND[42065]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 10:30:01 ip-172-31-3-24 CROND[42712]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 10:30:01 ip-172-31-3-24 CROND[42711]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 10:50:01 ip-172-31-3-24 CROND[43361]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 10:50:02 ip-172-31-3-24 CROND[43360]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 11:01:02 ip-172-31-3-24 CROND[43695]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) starting 0anacron
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) finished 0anacron
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 11:01:02 ip-172-31-3-24 run-parts[43695]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 11:01:02 ip-172-31-3-24 CROND[43694]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 11:10:01 ip-172-31-3-24 CROND[44073]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 11:10:01 ip-172-31-3-24 CROND[44072]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 11:30:01 ip-172-31-3-24 CROND[44722]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 11:30:01 ip-172-31-3-24 CROND[44721]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 11:50:01 ip-172-31-3-24 CROND[45382]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 11:50:01 ip-172-31-3-24 CROND[45381]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 12:01:01 ip-172-31-3-24 CROND[45718]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) starting 0anacron
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) finished 0anacron
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 12:01:01 ip-172-31-3-24 run-parts[45718]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 12:01:01 ip-172-31-3-24 CROND[45717]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 12:10:01 ip-172-31-3-24 CROND[46097]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 12:10:02 ip-172-31-3-24 CROND[46096]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 12:30:01 ip-172-31-3-24 CROND[46741]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 12:30:01 ip-172-31-3-24 CROND[46740]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 12:50:01 ip-172-31-3-24 CROND[47390]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 12:50:01 ip-172-31-3-24 CROND[47389]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 13:01:01 ip-172-31-3-24 CROND[47723]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) starting 0anacron
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) finished 0anacron
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 13:01:01 ip-172-31-3-24 run-parts[47723]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 13:01:01 ip-172-31-3-24 CROND[47722]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 13:10:01 ip-172-31-3-24 CROND[48101]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 13:10:01 ip-172-31-3-24 CROND[48100]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 13:30:01 ip-172-31-3-24 CROND[48747]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 13:30:01 ip-172-31-3-24 CROND[48746]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 13:50:01 ip-172-31-3-24 CROND[49395]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 13:50:01 ip-172-31-3-24 CROND[49394]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 14:01:01 ip-172-31-3-24 CROND[49730]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) starting 0anacron
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) finished 0anacron
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 14:01:01 ip-172-31-3-24 run-parts[49730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 14:01:01 ip-172-31-3-24 CROND[49729]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 14:10:01 ip-172-31-3-24 CROND[50108]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 14:10:02 ip-172-31-3-24 CROND[50107]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 14:30:01 ip-172-31-3-24 CROND[50751]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 14:30:01 ip-172-31-3-24 CROND[50750]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 14:50:01 ip-172-31-3-24 CROND[51398]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 14:50:01 ip-172-31-3-24 CROND[51397]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 15:01:01 ip-172-31-3-24 CROND[51730]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) starting 0anacron
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) finished 0anacron
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 15:01:01 ip-172-31-3-24 run-parts[51730]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 15:01:01 ip-172-31-3-24 CROND[51729]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 15:10:01 ip-172-31-3-24 CROND[52110]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 15:10:01 ip-172-31-3-24 CROND[52109]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 15:30:01 ip-172-31-3-24 CROND[52756]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 15:30:01 ip-172-31-3-24 CROND[52755]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 15:50:01 ip-172-31-3-24 CROND[53403]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 15:50:01 ip-172-31-3-24 CROND[53402]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 16:01:01 ip-172-31-3-24 CROND[53737]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) starting 0anacron
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) finished 0anacron
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 16:01:01 ip-172-31-3-24 run-parts[53737]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 16:01:01 ip-172-31-3-24 CROND[53736]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 16:10:01 ip-172-31-3-24 CROND[54118]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 16:10:01 ip-172-31-3-24 CROND[54117]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 16:30:01 ip-172-31-3-24 CROND[54764]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 16:30:02 ip-172-31-3-24 CROND[54763]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 16:50:01 ip-172-31-3-24 CROND[55411]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 16:50:01 ip-172-31-3-24 CROND[55410]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 17:01:01 ip-172-31-3-24 CROND[55743]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) starting 0anacron
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) finished 0anacron
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 17:01:01 ip-172-31-3-24 run-parts[55743]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 17:01:01 ip-172-31-3-24 CROND[55742]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 17:10:01 ip-172-31-3-24 CROND[56121]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 17:10:01 ip-172-31-3-24 CROND[56120]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 17:30:01 ip-172-31-3-24 CROND[56772]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 17:30:01 ip-172-31-3-24 CROND[56771]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 17:50:01 ip-172-31-3-24 CROND[57418]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 17:50:01 ip-172-31-3-24 CROND[57417]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 18:01:01 ip-172-31-3-24 CROND[57752]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) starting 0anacron
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) finished 0anacron
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 18:01:01 ip-172-31-3-24 run-parts[57752]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 18:01:01 ip-172-31-3-24 CROND[57751]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 18:10:01 ip-172-31-3-24 CROND[58133]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 18:10:01 ip-172-31-3-24 CROND[58132]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 18:30:01 ip-172-31-3-24 CROND[58780]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 18:30:01 ip-172-31-3-24 CROND[58779]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 18:50:01 ip-172-31-3-24 CROND[59426]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 18:50:01 ip-172-31-3-24 CROND[59425]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 19:01:01 ip-172-31-3-24 CROND[59759]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 19:01:01 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) starting 0anacron
+Jun  8 19:01:01 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) finished 0anacron
+Jun  8 19:01:01 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 19:01:01 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 19:01:01 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 19:01:01 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 19:01:01 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 19:01:01 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 19:01:01 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 19:01:02 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 19:01:02 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 19:01:02 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 19:01:02 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 19:01:02 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 19:01:02 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 19:01:02 ip-172-31-3-24 run-parts[59759]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 19:01:02 ip-172-31-3-24 CROND[59758]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 19:10:01 ip-172-31-3-24 CROND[60139]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 19:10:01 ip-172-31-3-24 CROND[60138]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 19:30:01 ip-172-31-3-24 CROND[60785]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 19:30:01 ip-172-31-3-24 CROND[60784]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 19:50:01 ip-172-31-3-24 CROND[61434]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 19:50:01 ip-172-31-3-24 CROND[61433]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 20:01:01 ip-172-31-3-24 CROND[61768]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) starting 0anacron
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) finished 0anacron
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 20:01:01 ip-172-31-3-24 run-parts[61768]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 20:01:01 ip-172-31-3-24 CROND[61767]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 20:10:01 ip-172-31-3-24 CROND[62147]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 20:10:01 ip-172-31-3-24 CROND[62146]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 20:30:01 ip-172-31-3-24 CROND[62793]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 20:30:01 ip-172-31-3-24 CROND[62792]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 20:50:01 ip-172-31-3-24 CROND[63440]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 20:50:01 ip-172-31-3-24 CROND[63439]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 21:01:01 ip-172-31-3-24 CROND[63774]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) starting 0anacron
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) finished 0anacron
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 21:01:01 ip-172-31-3-24 run-parts[63774]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 21:01:01 ip-172-31-3-24 CROND[63773]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 21:10:01 ip-172-31-3-24 CROND[64152]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 21:10:01 ip-172-31-3-24 CROND[64151]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 21:30:01 ip-172-31-3-24 CROND[64801]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 21:30:01 ip-172-31-3-24 CROND[64800]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 21:50:01 ip-172-31-3-24 CROND[65449]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 21:50:01 ip-172-31-3-24 CROND[65448]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 22:01:01 ip-172-31-3-24 CROND[65785]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 22:01:01 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) starting 0anacron
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) finished 0anacron
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 22:01:02 ip-172-31-3-24 run-parts[65785]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 22:01:02 ip-172-31-3-24 CROND[65784]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 22:10:01 ip-172-31-3-24 CROND[66162]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 22:10:01 ip-172-31-3-24 CROND[66161]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 22:30:01 ip-172-31-3-24 CROND[66807]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 22:30:01 ip-172-31-3-24 CROND[66806]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 22:50:01 ip-172-31-3-24 CROND[67455]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 22:50:01 ip-172-31-3-24 CROND[67454]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 23:01:01 ip-172-31-3-24 CROND[67787]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  8 23:01:01 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) starting 0anacron
+Jun  8 23:01:01 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) finished 0anacron
+Jun  8 23:01:01 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 23:01:02 ip-172-31-3-24 run-parts[67787]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  8 23:01:02 ip-172-31-3-24 CROND[67786]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  8 23:10:01 ip-172-31-3-24 CROND[68165]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 23:10:01 ip-172-31-3-24 CROND[68164]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 23:30:01 ip-172-31-3-24 CROND[68812]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 23:30:01 ip-172-31-3-24 CROND[68811]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 23:50:01 ip-172-31-3-24 CROND[69457]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  8 23:50:01 ip-172-31-3-24 CROND[69456]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 00:01:01 ip-172-31-3-24 CROND[69800]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) starting 0anacron
+Jun  9 00:01:01 ip-172-31-3-24 anacron[69811]: Anacron started on 2026-06-09
+Jun  9 00:01:01 ip-172-31-3-24 anacron[69811]: Normal exit (0 jobs run)
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) finished 0anacron
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 00:01:01 ip-172-31-3-24 run-parts[69800]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 00:01:01 ip-172-31-3-24 CROND[69799]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 00:10:01 ip-172-31-3-24 CROND[70191]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 00:10:01 ip-172-31-3-24 CROND[70190]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 00:30:01 ip-172-31-3-24 CROND[70885]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 00:30:01 ip-172-31-3-24 CROND[70884]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 00:50:01 ip-172-31-3-24 CROND[71532]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 00:50:01 ip-172-31-3-24 CROND[71531]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 01:01:01 ip-172-31-3-24 CROND[71865]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 01:01:01 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) starting 0anacron
+Jun  9 01:01:01 ip-172-31-3-24 anacron[71876]: Anacron started on 2026-06-09
+Jun  9 01:01:01 ip-172-31-3-24 anacron[71876]: Normal exit (0 jobs run)
+Jun  9 01:01:01 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) finished 0anacron
+Jun  9 01:01:01 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 01:01:01 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 01:01:01 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 01:01:01 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 01:01:01 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 01:01:01 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 01:01:02 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 01:01:02 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 01:01:02 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 01:01:02 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 01:01:02 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 01:01:02 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 01:01:02 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 01:01:02 ip-172-31-3-24 run-parts[71865]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 01:01:02 ip-172-31-3-24 CROND[71864]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 01:10:01 ip-172-31-3-24 CROND[72248]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 01:10:01 ip-172-31-3-24 CROND[72247]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 01:30:01 ip-172-31-3-24 CROND[72896]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 01:30:01 ip-172-31-3-24 CROND[72895]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 01:50:01 ip-172-31-3-24 CROND[73543]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 01:50:01 ip-172-31-3-24 CROND[73542]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 02:01:01 ip-172-31-3-24 CROND[73878]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) starting 0anacron
+Jun  9 02:01:01 ip-172-31-3-24 anacron[73889]: Anacron started on 2026-06-09
+Jun  9 02:01:01 ip-172-31-3-24 anacron[73889]: Normal exit (0 jobs run)
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) finished 0anacron
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 02:01:01 ip-172-31-3-24 run-parts[73878]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 02:01:01 ip-172-31-3-24 CROND[73877]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 02:10:01 ip-172-31-3-24 CROND[74262]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 02:10:01 ip-172-31-3-24 CROND[74261]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 02:30:01 ip-172-31-3-24 CROND[74907]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 02:30:01 ip-172-31-3-24 CROND[74906]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 02:50:01 ip-172-31-3-24 CROND[75555]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 02:50:01 ip-172-31-3-24 CROND[75554]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 03:01:01 ip-172-31-3-24 CROND[75890]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) starting 0anacron
+Jun  9 03:01:01 ip-172-31-3-24 anacron[75901]: Anacron started on 2026-06-09
+Jun  9 03:01:01 ip-172-31-3-24 anacron[75901]: Will run job `cron.daily' in 46 min.
+Jun  9 03:01:01 ip-172-31-3-24 anacron[75901]: Jobs will be executed sequentially
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) finished 0anacron
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 03:01:01 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 03:01:02 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 03:01:02 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 03:01:02 ip-172-31-3-24 run-parts[75890]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 03:01:02 ip-172-31-3-24 CROND[75889]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 03:10:01 ip-172-31-3-24 CROND[76270]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 03:10:01 ip-172-31-3-24 CROND[76269]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 03:30:01 ip-172-31-3-24 CROND[76917]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 03:30:01 ip-172-31-3-24 CROND[76916]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 03:47:01 ip-172-31-3-24 anacron[75901]: Job `cron.daily' started
+Jun  9 03:47:01 ip-172-31-3-24 anacron[75901]: Job `cron.daily' terminated
+Jun  9 03:47:01 ip-172-31-3-24 anacron[75901]: Normal exit (1 job run)
+Jun  9 03:50:01 ip-172-31-3-24 CROND[77566]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 03:50:01 ip-172-31-3-24 CROND[77565]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 04:01:01 ip-172-31-3-24 CROND[77900]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) starting 0anacron
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) finished 0anacron
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 04:01:01 ip-172-31-3-24 run-parts[77900]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 04:01:01 ip-172-31-3-24 CROND[77899]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 04:10:01 ip-172-31-3-24 CROND[78280]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 04:10:01 ip-172-31-3-24 CROND[78279]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 04:30:01 ip-172-31-3-24 CROND[78924]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 04:30:01 ip-172-31-3-24 CROND[78923]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 04:50:01 ip-172-31-3-24 CROND[79571]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 04:50:01 ip-172-31-3-24 CROND[79570]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 05:01:01 ip-172-31-3-24 CROND[79906]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) starting 0anacron
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) finished 0anacron
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 05:01:01 ip-172-31-3-24 run-parts[79906]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 05:01:01 ip-172-31-3-24 CROND[79905]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 05:10:01 ip-172-31-3-24 CROND[80284]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 05:10:01 ip-172-31-3-24 CROND[80283]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 05:30:01 ip-172-31-3-24 CROND[80933]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 05:30:02 ip-172-31-3-24 CROND[80932]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 05:50:01 ip-172-31-3-24 CROND[81580]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 05:50:01 ip-172-31-3-24 CROND[81579]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 06:01:01 ip-172-31-3-24 CROND[81917]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) starting 0anacron
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) finished 0anacron
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 06:01:01 ip-172-31-3-24 run-parts[81917]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 06:01:01 ip-172-31-3-24 CROND[81916]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 06:10:01 ip-172-31-3-24 CROND[82295]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 06:10:01 ip-172-31-3-24 CROND[82294]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 06:30:01 ip-172-31-3-24 CROND[82941]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 06:30:01 ip-172-31-3-24 CROND[82940]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 06:50:01 ip-172-31-3-24 CROND[83592]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 06:50:01 ip-172-31-3-24 CROND[83591]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 07:01:01 ip-172-31-3-24 CROND[83924]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) starting 0anacron
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) finished 0anacron
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 07:01:01 ip-172-31-3-24 run-parts[83924]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 07:01:01 ip-172-31-3-24 CROND[83923]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 07:10:01 ip-172-31-3-24 CROND[84302]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 07:10:01 ip-172-31-3-24 CROND[84301]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 07:30:01 ip-172-31-3-24 CROND[84960]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 07:30:01 ip-172-31-3-24 CROND[84959]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 07:50:01 ip-172-31-3-24 CROND[85631]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 07:50:01 ip-172-31-3-24 CROND[85630]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 08:01:01 ip-172-31-3-24 CROND[85965]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) starting 0anacron
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) finished 0anacron
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 08:01:01 ip-172-31-3-24 run-parts[85965]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 08:01:01 ip-172-31-3-24 CROND[85964]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 08:10:01 ip-172-31-3-24 CROND[86343]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 08:10:02 ip-172-31-3-24 CROND[86342]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 08:30:01 ip-172-31-3-24 CROND[86988]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 08:30:01 ip-172-31-3-24 CROND[86987]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 08:50:01 ip-172-31-3-24 CROND[87637]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 08:50:01 ip-172-31-3-24 CROND[87636]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 09:01:01 ip-172-31-3-24 CROND[88013]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) starting 0anacron
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) finished 0anacron
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 09:01:01 ip-172-31-3-24 run-parts[88013]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 09:01:01 ip-172-31-3-24 CROND[88012]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 09:10:01 ip-172-31-3-24 CROND[88392]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 09:10:01 ip-172-31-3-24 CROND[88391]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 09:30:01 ip-172-31-3-24 CROND[89877]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 09:30:01 ip-172-31-3-24 CROND[89876]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 09:50:01 ip-172-31-3-24 CROND[90912]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 09:50:01 ip-172-31-3-24 CROND[90911]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 10:01:01 ip-172-31-3-24 CROND[91245]: (root) CMD (run-parts /etc/cron.hourly)
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) starting 0anacron
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) finished 0anacron
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) starting cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) finished cron.logcleanup.elasticbeanstalk.healthd-proxy.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-engine.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.eb-hooks.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.healthd.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.nginx.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stderr.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) starting cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 10:01:01 ip-172-31-3-24 run-parts[91245]: (/etc/cron.hourly) finished cron.logrotate.elasticbeanstalk.web-stdout.conf
+Jun  9 10:01:01 ip-172-31-3-24 CROND[91244]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jun  9 10:10:01 ip-172-31-3-24 CROND[91623]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 10:10:01 ip-172-31-3-24 CROND[91622]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 10:30:01 ip-172-31-3-24 CROND[93074]: (root) CMD (/opt/elasticbeanstalk/bin/publishlogs -type publish)
+Jun  9 10:30:01 ip-172-31-3-24 CROND[93073]: (root) CMDEND (/opt/elasticbeanstalk/bin/publishlogs -type publish)

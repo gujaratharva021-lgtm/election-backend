@@ -33,11 +33,19 @@ func (r *ResultRepository) GetAll(year int, state string) ([]models.Result, erro
 }
 
 // ── GET WINNERS ONLY ──────────────────────────────────
-func (r *ResultRepository) GetWinners(year int, state string) ([]models.Result, error) {
+func (r *ResultRepository) GetWinners(year int, state string, electionType string) ([]models.Result, error) {
 	var results []models.Result
-	err := r.db.Preload("Candidate").Preload("Party").Preload("Constituency").
-		Where("is_winner = ? AND election_year = ?", true, year).
-		Find(&results).Error
+	query := r.db.Preload("Candidate").Preload("Party").Preload("Constituency").
+		Joins("JOIN constituencies ON constituencies.id = results.constituency_id").
+		Where("results.is_winner = true AND results.election_year = ?", year)
+
+	if electionType == "MLA" {
+		query = query.Where("constituencies.type = ?", "AC")
+	} else if electionType == "MP" {
+		query = query.Where("constituencies.type = ?", "PC")
+	}
+
+	err := query.Find(&results).Error
 	return results, err
 }
 

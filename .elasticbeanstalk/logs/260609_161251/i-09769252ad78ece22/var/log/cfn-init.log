@@ -1,0 +1,97 @@
+2026-06-07 15:57:04,272 [INFO] -----------------------Starting build-----------------------
+2026-06-07 15:57:04,277 [INFO] Running configSets: _OnInstanceBoot
+2026-06-07 15:57:04,279 [INFO] Running configSet _OnInstanceBoot
+2026-06-07 15:57:04,282 [INFO] Running config AWSEBBaseConfig
+2026-06-07 15:57:04,517 [INFO] Command clearbackupfiles succeeded
+2026-06-07 15:57:04,520 [INFO] Running config AWSEBCfnHupEndpointOverride
+2026-06-07 15:57:04,525 [INFO] Command clearbackupfiles succeeded
+2026-06-07 15:57:04,526 [INFO] ConfigSets completed
+2026-06-07 15:57:04,526 [INFO] -----------------------Build complete-----------------------
+2026-06-07 15:57:07,824 [INFO] -----------------------Starting build-----------------------
+2026-06-07 15:57:07,829 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-07 15:57:07,831 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-07 15:57:07,831 [INFO] ConfigSets completed
+2026-06-07 15:57:07,832 [INFO] -----------------------Build complete-----------------------
+2026-06-07 15:58:45,535 [INFO] -----------------------Starting build-----------------------
+2026-06-07 15:58:45,541 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2026-06-07 15:58:45,544 [INFO] Running configSet Infra-EmbeddedPostBuild
+2026-06-07 15:58:45,544 [INFO] ConfigSets completed
+2026-06-07 15:58:45,544 [INFO] -----------------------Build complete-----------------------
+2026-06-09 08:54:46,697 [INFO] -----------------------Starting build-----------------------
+2026-06-09 08:54:46,703 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 08:54:46,706 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 08:54:46,706 [INFO] ConfigSets completed
+2026-06-09 08:54:46,706 [INFO] -----------------------Build complete-----------------------
+2026-06-09 09:22:35,865 [INFO] -----------------------Starting build-----------------------
+2026-06-09 09:22:35,870 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 09:22:35,871 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 09:22:35,871 [INFO] ConfigSets completed
+2026-06-09 09:22:35,872 [INFO] -----------------------Build complete-----------------------
+2026-06-09 09:22:39,270 [INFO] -----------------------Starting build-----------------------
+2026-06-09 09:22:39,275 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2026-06-09 09:22:39,277 [INFO] Running configSet Infra-EmbeddedPostBuild
+2026-06-09 09:22:39,277 [INFO] ConfigSets completed
+2026-06-09 09:22:39,278 [INFO] -----------------------Build complete-----------------------
+2026-06-09 09:27:06,420 [INFO] -----------------------Starting build-----------------------
+2026-06-09 09:27:06,425 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 09:27:06,426 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 09:27:06,427 [INFO] ConfigSets completed
+2026-06-09 09:27:06,427 [INFO] -----------------------Build complete-----------------------
+2026-06-09 09:27:10,031 [INFO] -----------------------Starting build-----------------------
+2026-06-09 09:27:10,035 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2026-06-09 09:27:10,037 [INFO] Running configSet Infra-EmbeddedPostBuild
+2026-06-09 09:27:10,037 [INFO] ConfigSets completed
+2026-06-09 09:27:10,037 [INFO] -----------------------Build complete-----------------------
+2026-06-09 09:34:23,385 [INFO] -----------------------Starting build-----------------------
+2026-06-09 09:34:23,389 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 09:34:23,391 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 09:34:23,391 [INFO] ConfigSets completed
+2026-06-09 09:34:23,391 [INFO] -----------------------Build complete-----------------------
+2026-06-09 09:34:26,787 [INFO] -----------------------Starting build-----------------------
+2026-06-09 09:34:26,792 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2026-06-09 09:34:26,793 [INFO] Running configSet Infra-EmbeddedPostBuild
+2026-06-09 09:34:26,793 [INFO] ConfigSets completed
+2026-06-09 09:34:26,793 [INFO] -----------------------Build complete-----------------------
+2026-06-09 10:15:38,999 [INFO] -----------------------Starting build-----------------------
+2026-06-09 10:15:39,005 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 10:15:39,008 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 10:15:39,008 [INFO] ConfigSets completed
+2026-06-09 10:15:39,008 [INFO] -----------------------Build complete-----------------------
+2026-06-09 10:15:42,487 [INFO] -----------------------Starting build-----------------------
+2026-06-09 10:15:42,492 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2026-06-09 10:15:42,494 [INFO] Running configSet Infra-EmbeddedPostBuild
+2026-06-09 10:15:42,494 [INFO] ConfigSets completed
+2026-06-09 10:15:42,494 [INFO] -----------------------Build complete-----------------------
+2026-06-09 10:22:12,198 [INFO] -----------------------Starting build-----------------------
+2026-06-09 10:22:12,203 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 10:22:12,205 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 10:22:12,208 [INFO] Running config prebuild_0_onebharat_foreigntent
+2026-06-09 10:22:12,210 [INFO] ConfigSets completed
+2026-06-09 10:22:12,210 [INFO] -----------------------Build complete-----------------------
+2026-06-09 10:22:15,502 [INFO] -----------------------Starting build-----------------------
+2026-06-09 10:22:15,507 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2026-06-09 10:22:15,509 [INFO] Running configSet Infra-EmbeddedPostBuild
+2026-06-09 10:22:15,509 [INFO] ConfigSets completed
+2026-06-09 10:22:15,509 [INFO] -----------------------Build complete-----------------------
+2026-06-09 10:39:42,426 [INFO] -----------------------Starting build-----------------------
+2026-06-09 10:39:42,432 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 10:39:42,434 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 10:39:42,437 [INFO] Running config prebuild_0_onebharat_foreigntent
+2026-06-09 10:39:42,439 [INFO] ConfigSets completed
+2026-06-09 10:39:42,439 [INFO] -----------------------Build complete-----------------------
+2026-06-09 10:39:46,489 [INFO] -----------------------Starting build-----------------------
+2026-06-09 10:39:46,494 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2026-06-09 10:39:46,497 [INFO] Running configSet Infra-EmbeddedPostBuild
+2026-06-09 10:39:46,497 [INFO] ConfigSets completed
+2026-06-09 10:39:46,497 [INFO] -----------------------Build complete-----------------------
+2026-06-09 10:41:45,584 [INFO] -----------------------Starting build-----------------------
+2026-06-09 10:41:45,589 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 10:41:45,592 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 10:41:45,596 [INFO] Running config prebuild_0_onebharat_foreigntent
+2026-06-09 10:41:45,599 [INFO] ConfigSets completed
+2026-06-09 10:41:45,599 [INFO] -----------------------Build complete-----------------------
+2026-06-09 10:41:49,518 [INFO] -----------------------Starting build-----------------------
+2026-06-09 10:41:49,523 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2026-06-09 10:41:49,525 [INFO] Running configSet Infra-EmbeddedPostBuild
+2026-06-09 10:41:49,525 [INFO] ConfigSets completed
+2026-06-09 10:41:49,525 [INFO] -----------------------Build complete-----------------------

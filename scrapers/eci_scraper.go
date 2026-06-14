@@ -29,6 +29,9 @@ const assemblyCSVURL = "https://raw.githubusercontent.com/datameet/india-electio
 var stateYearCSV = map[string]map[int]string{
 	"maharashtra": {
 		2024: "https://data.opencity.in/dataset/0e9001ca-b19d-43e0-b0f5-73ed286bbacc/resource/1b620173-b21b-4a58-8304-93095429fab5/download/a6c740cd-c7c5-4d04-a88f-3835aabbe0fe.csv",
+		2019: "https://raw.githubusercontent.com/datameet/india-election-data/master/assembly-elections/assembly.csv",
+		2014: "https://raw.githubusercontent.com/datameet/india-election-data/master/assembly-elections/assembly.csv",
+		2009: "https://raw.githubusercontent.com/datameet/india-election-data/master/assembly-elections/assembly.csv",
 	},
 }
 
