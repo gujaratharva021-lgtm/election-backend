@@ -43,6 +43,8 @@ func (r *ResultRepository) GetWinners(year int, state string, electionType strin
 		query = query.Where("constituencies.type = ?", "AC")
 	} else if electionType == "MP" {
 		query = query.Where("constituencies.type = ?", "PC")
+	} else if state != "" {
+		query = query.Where("constituencies.state = ?", state)
 	}
 
 	err := query.Find(&results).Error
