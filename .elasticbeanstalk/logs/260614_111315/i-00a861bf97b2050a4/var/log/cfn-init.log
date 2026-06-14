@@ -1,0 +1,132 @@
+2026-06-09 11:12:15,194 [INFO] -----------------------Starting build-----------------------
+2026-06-09 11:12:15,206 [INFO] Running configSets: _OnInstanceBoot
+2026-06-09 11:12:15,212 [INFO] Running configSet _OnInstanceBoot
+2026-06-09 11:12:15,214 [INFO] Running config AWSEBBaseConfig
+2026-06-09 11:12:15,479 [INFO] Command clearbackupfiles succeeded
+2026-06-09 11:12:15,482 [INFO] Running config AWSEBCfnHupEndpointOverride
+2026-06-09 11:12:15,487 [INFO] Command clearbackupfiles succeeded
+2026-06-09 11:12:15,488 [INFO] ConfigSets completed
+2026-06-09 11:12:15,489 [INFO] -----------------------Build complete-----------------------
+2026-06-09 11:12:18,972 [INFO] -----------------------Starting build-----------------------
+2026-06-09 11:12:18,977 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 11:12:18,979 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 11:12:18,980 [INFO] ConfigSets completed
+2026-06-09 11:12:18,980 [INFO] -----------------------Build complete-----------------------
+2026-06-09 11:13:37,601 [INFO] -----------------------Starting build-----------------------
+2026-06-09 11:13:37,606 [INFO] Running configSets: _OnInstanceReboot
+2026-06-09 11:13:37,609 [INFO] Running configSet _OnInstanceReboot
+2026-06-09 11:13:37,611 [INFO] Running config AWSEBBaseConfig
+2026-06-09 11:13:37,822 [INFO] Command clearbackupfiles succeeded
+2026-06-09 11:13:37,823 [INFO] ConfigSets completed
+2026-06-09 11:13:37,824 [INFO] -----------------------Build complete-----------------------
+2026-06-09 11:13:38,825 [INFO] -----------------------Starting build-----------------------
+2026-06-09 11:13:38,830 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 11:13:38,832 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 11:13:38,832 [INFO] ConfigSets completed
+2026-06-09 11:13:38,833 [INFO] -----------------------Build complete-----------------------
+2026-06-09 11:14:41,244 [INFO] -----------------------Starting build-----------------------
+2026-06-09 11:14:41,251 [INFO] Running configSets: Infra-EmbeddedPostBuild
+2026-06-09 11:14:41,253 [INFO] Running configSet Infra-EmbeddedPostBuild
+2026-06-09 11:14:41,255 [INFO] ConfigSets completed
+2026-06-09 11:14:41,255 [INFO] -----------------------Build complete-----------------------
+2026-06-09 11:22:56,323 [INFO] -----------------------Starting build-----------------------
+2026-06-09 11:22:56,329 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-09 11:22:56,332 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-09 11:22:56,334 [INFO] Running config prebuild_0_onebharat_foreigntent
+2026-06-09 11:22:56,337 [INFO] ConfigSets completed
+2026-06-09 11:22:56,337 [INFO] -----------------------Build complete-----------------------
+2026-06-11 09:59:33,624 [INFO] -----------------------Starting build-----------------------
+2026-06-11 09:59:33,632 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-11 09:59:33,635 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-11 09:59:33,641 [INFO] Running config prebuild_0_onebharat_foreigntent
+2026-06-11 09:59:33,646 [INFO] ConfigSets completed
+2026-06-11 09:59:33,647 [INFO] -----------------------Build complete-----------------------
+2026-06-11 10:03:43,645 [INFO] -----------------------Starting build-----------------------
+2026-06-11 10:03:43,652 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-11 10:03:43,656 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-11 10:03:43,659 [INFO] Running config prebuild_0_onebharat_foreigntent
+2026-06-11 10:03:43,663 [INFO] ConfigSets completed
+2026-06-11 10:03:43,663 [INFO] -----------------------Build complete-----------------------
+2026-06-11 10:05:31,303 [INFO] -----------------------Starting build-----------------------
+2026-06-11 10:05:31,310 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-11 10:05:31,314 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-11 10:05:31,318 [INFO] Running config prebuild_0_onebharat_foreigntent
+2026-06-11 10:05:31,322 [INFO] ConfigSets completed
+2026-06-11 10:05:31,323 [INFO] -----------------------Build complete-----------------------
+2026-06-14 04:19:32,364 [INFO] -----------------------Starting build-----------------------
+2026-06-14 04:19:32,371 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-14 04:19:32,374 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-14 04:19:32,377 [INFO] Running config prebuild_0_onebharat_foreigntent
+2026-06-14 04:19:32,381 [INFO] Running config prebuild_1_onebharat_foreigntent
+2026-06-14 04:19:32,400 [ERROR] Command build_app (go build -o bin/application .) failed
+2026-06-14 04:19:32,401 [ERROR] Error encountered during build of prebuild_1_onebharat_foreigntent: Command build_app failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 581, in run_config
+    CloudFormationCarpenter(config, self._auth_config, self.strict_mode).build(worklog)
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 279, in build
+    changes['commands'] = CommandTool().apply(
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/command_tool.py", line 127, in apply
+    raise ToolError(u"Command %s failed" % name)
+cfnbootstrap.construction_errors.ToolError: Command build_app failed
+2026-06-14 04:19:32,403 [ERROR] -----------------------BUILD FAILED!------------------------
+2026-06-14 04:19:32,403 [ERROR] Unhandled exception during build: Command build_app failed
+Traceback (most recent call last):
+  File "/opt/aws/bin/cfn-init", line 181, in <module>
+    worklog.build(metadata, configSets, strict_mode)
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 139, in build
+    Contractor(metadata, strict_mode).build(configSets, self)
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 569, in build
+    self.run_config(config, worklog)
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 581, in run_config
+    CloudFormationCarpenter(config, self._auth_config, self.strict_mode).build(worklog)
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 279, in build
+    changes['commands'] = CommandTool().apply(
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/command_tool.py", line 127, in apply
+    raise ToolError(u"Command %s failed" % name)
+cfnbootstrap.construction_errors.ToolError: Command build_app failed
+2026-06-14 05:11:03,408 [INFO] -----------------------Starting build-----------------------
+2026-06-14 05:11:03,415 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-14 05:11:03,418 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-14 05:11:03,418 [INFO] ConfigSets completed
+2026-06-14 05:11:03,418 [INFO] -----------------------Build complete-----------------------
+2026-06-14 05:16:28,609 [INFO] -----------------------Starting build-----------------------
+2026-06-14 05:16:28,615 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-14 05:16:28,618 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-14 05:16:28,618 [INFO] ConfigSets completed
+2026-06-14 05:16:28,618 [INFO] -----------------------Build complete-----------------------
+2026-06-14 05:30:09,429 [INFO] -----------------------Starting build-----------------------
+2026-06-14 05:30:09,434 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-14 05:30:09,437 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-14 05:30:09,437 [INFO] ConfigSets completed
+2026-06-14 05:30:09,437 [INFO] -----------------------Build complete-----------------------
+2026-06-14 05:42:11,226 [INFO] -----------------------Starting build-----------------------
+2026-06-14 05:42:11,231 [INFO] Running configSets: Infra-EmbeddedPreBuild
+2026-06-14 05:42:11,234 [INFO] Running configSet Infra-EmbeddedPreBuild
+2026-06-14 05:42:11,237 [INFO] Running config prebuild_0_onebharat_foreigntent
+2026-06-14 05:42:11,241 [INFO] Running config prebuild_1_onebharat_foreigntent
+2026-06-14 05:42:11,249 [ERROR] Command build_app (go build -o bin/application .) failed
+2026-06-14 05:42:11,249 [ERROR] Error encountered during build of prebuild_1_onebharat_foreigntent: Command build_app failed
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 581, in run_config
+    CloudFormationCarpenter(config, self._auth_config, self.strict_mode).build(worklog)
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 279, in build
+    changes['commands'] = CommandTool().apply(
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/command_tool.py", line 127, in apply
+    raise ToolError(u"Command %s failed" % name)
+cfnbootstrap.construction_errors.ToolError: Command build_app failed
+2026-06-14 05:42:11,249 [ERROR] -----------------------BUILD FAILED!------------------------
+2026-06-14 05:42:11,250 [ERROR] Unhandled exception during build: Command build_app failed
+Traceback (most recent call last):
+  File "/opt/aws/bin/cfn-init", line 181, in <module>
+    worklog.build(metadata, configSets, strict_mode)
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 139, in build
+    Contractor(metadata, strict_mode).build(configSets, self)
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 569, in build
+    self.run_config(config, worklog)
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 581, in run_config
+    CloudFormationCarpenter(config, self._auth_config, self.strict_mode).build(worklog)
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/construction.py", line 279, in build
+    changes['commands'] = CommandTool().apply(
+  File "/usr/lib/python3.9/site-packages/cfnbootstrap/command_tool.py", line 127, in apply
+    raise ToolError(u"Command %s failed" % name)
+cfnbootstrap.construction_errors.ToolError: Command build_app failed
