@@ -1,1 +1,1 @@
-web: ./application
+web: ./election_backend
