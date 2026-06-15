@@ -1,8 +1,4 @@
-FROM golang:1.21-alpine
-WORKDIR /app
-COPY go.mod go.sum ./
-RUN go mod download
-COPY . .
-RUN go build -o application .
+FROM scratch
+COPY election_backend /election_backend
 EXPOSE 5000
-CMD ["./application"]
+CMD ["/election_backend"]
