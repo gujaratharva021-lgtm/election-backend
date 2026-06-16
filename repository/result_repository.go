@@ -168,10 +168,9 @@ func (r *ResultRepository) GetPartyResultSummary(year int, state string, partyID
 	}, nil
 }
 
-func (r *ResultRepository) GetPartyWiseSummary(year int, state string) ([]map[string]interface{}, error) {
+func (r *ResultRepository) GetPartyWiseSummary(year int, state string, electionType string) ([]map[string]interface{}, error) {
 	var summary []map[string]interface{}
-
-	err := r.db.Raw(`
+	query := `
 		SELECT 
 			p.name as party_name,
 			p.short_name,
@@ -182,10 +181,13 @@ func (r *ResultRepository) GetPartyWiseSummary(year int, state string) ([]map[st
 		FROM results r
 		JOIN parties p ON p.id = r.party_id
 		JOIN constituencies c ON c.id = r.constituency_id
-		WHERE r.election_year = ? AND c.state = ?
-		GROUP BY p.id, p.name, p.short_name, p.color
-		ORDER BY seats_won DESC
-	`, year, state).Scan(&summary).Error
-
+		WHERE r.election_year = ? AND c.state = ?`
+	args := []interface{}{year, state}
+	if electionType != "" {
+		query += ` AND c.type = ?`
+		args = append(args, electionType)
+	}
+	query += ` GROUP BY p.id, p.name, p.short_name, p.color ORDER BY seats_won DESC`
+	err := r.db.Raw(query, args...).Scan(&summary).Error
 	return summary, err
 }

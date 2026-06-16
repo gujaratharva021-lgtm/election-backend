@@ -38,13 +38,14 @@ func GetVoteTrends(c *gin.Context) {
 func GetPartyWiseSummary(c *gin.Context) {
 	year, _ := strconv.Atoi(c.DefaultQuery("year", "2024"))
 	state := c.DefaultQuery("state", "Maharashtra")
+	electionType := c.DefaultQuery("type", "")
 	repo := repository.NewResultRepository(config.DB)
-	summary, err := repo.GetPartyWiseSummary(year, state)
+	summary, err := repo.GetPartyWiseSummary(year, state, electionType)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
 	}
-	c.JSON(http.StatusOK, gin.H{"year": year, "state": state, "summary": summary})
+	c.JSON(http.StatusOK, gin.H{"year": year, "state": state, "type": electionType, "summary": summary})
 }
 
 func GetWinners(c *gin.Context) {
