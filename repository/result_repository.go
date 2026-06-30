@@ -39,9 +39,9 @@ func (r *ResultRepository) GetWinners(year int, state string, electionType strin
 		Joins("JOIN constituencies ON constituencies.id = results.constituency_id").
 		Where("results.is_winner = true AND results.election_year = ?", year)
 
-	if electionType == "MLA" {
+	if electionType == "MLA" || electionType == "AC" {
 		query = query.Where("constituencies.type = ?", "AC")
-	} else if electionType == "MP" {
+	} else if electionType == "MP" || electionType == "PC" {
 		query = query.Where("constituencies.type = ?", "PC")
 	} else if state != "" {
 		query = query.Where("constituencies.state = ?", state)
@@ -191,3 +191,4 @@ func (r *ResultRepository) GetPartyWiseSummary(year int, state string, electionT
 	err := r.db.Raw(query, args...).Scan(&summary).Error
 	return summary, err
 }
+
