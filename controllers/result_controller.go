@@ -158,3 +158,16 @@ func ScrapeECICandidates(c *gin.Context) {
 	config.DB.Create(&models.ScrapeLog{Source: "ECI Candidates", Status: "success", Records: len(candidates)})
 	c.JSON(http.StatusOK, gin.H{"message": "Candidates scraped!", "candidates": len(candidates)})
 }
+
+// GetResultsCount returns only the total count, without the full dataset.
+func GetResultsCount(c *gin.Context) {
+year, _ := strconv.Atoi(c.DefaultQuery("year", "2024"))
+state := c.DefaultQuery("state", "Maharashtra")
+repo := repository.NewResultRepository(config.DB)
+count, err := repo.GetCount(year, state)
+if err != nil {
+c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+return
+}
+c.JSON(http.StatusOK, gin.H{"year": year, "state": state, "count": count})
+}

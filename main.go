@@ -1,4 +1,4 @@
-﻿package main
+package main
 
 import (
 "election_backend/config"
@@ -39,6 +39,7 @@ v1.GET("/parties/compare", controllers.CompareParties)
 v1.GET("/candidates", controllers.GetCandidates)
 v1.GET("/candidates/:id", controllers.GetCandidateById)
 v1.GET("/results", controllers.GetResults)
+v1.GET("/results/count", controllers.GetResultsCount)
 v1.GET("/results/trends", controllers.GetVoteTrends)
 v1.GET("/results/winners", controllers.GetWinners)
 v1.GET("/results/khasdars", controllers.GetKhasdars)

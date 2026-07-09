@@ -192,3 +192,21 @@ func (r *ResultRepository) GetPartyWiseSummary(year int, state string, electionT
 	return summary, err
 }
 
+
+// GetCount returns just the row count, without loading any actual data.
+// Much faster/lighter than GetAll when only the total number is needed.
+func (r *ResultRepository) GetCount(year int, state string) (int64, error) {
+var count int64
+query := r.db.Model(&models.Result{})
+
+if year != 0 {
+query = query.Where("election_year = ?", year)
+}
+if state != "" {
+query = query.Joins("JOIN constituencies ON constituencies.id = results.constituency_id").
+Where("constituencies.state = ?", state)
+}
+
+err := query.Count(&count).Error
+return count, err
+}
